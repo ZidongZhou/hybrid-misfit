@@ -1,5 +1,7 @@
 # Final reproduction package
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21323412.svg)](https://doi.org/10.5281/zenodo.21323412)
+
 This package accompanies the manuscript **Directional Hybrid-Work Misfit and Job Dissatisfaction: Implications for Socially Sustainable Hybrid-Work Design**. It contains the source code, manuscript source, tests, generated source tables, PNG figures, MDPI-formatted documents, the formatted supplementary workbook, and clean-run records.
 
 ## Submission files
