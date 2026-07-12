@@ -1,0 +1,3 @@
+outcome,term,estimate,ci_low,ci_high,n
+five_category_satisfaction_score_high_bad,under_remote_planned,0.4137767382839738,0.3754125049948218,0.4521409715731258,37434
+five_category_satisfaction_score_high_bad,over_remote_planned,0.07085312741959193,-0.012994638697337926,0.15470089353652178,37434

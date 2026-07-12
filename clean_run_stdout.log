@@ -1,0 +1,67 @@
+
+=== Analysis ===
+Running: python project/code/revision_grade_analysis.py --data-zip 数据集压缩包(7).zip
+Revision-grade analysis tables written to tables/
+Analysis completed in 430.1 seconds.
+
+=== Figures ===
+Running: python project/code/make_submission_figures.py
+Saved clean publication figures to figures/
+Figures completed in 4.7 seconds.
+
+=== MDPI documents ===
+Running: python project/code/generate_submission_documents.py
+manuscript/Manuscript_MDPI_Sustainability_FINAL.docx
+manuscript/Supplementary_Material_FINAL.docx
+manuscript/Cover_Letter_MDPI_Sustainability_FINAL.docx
+MDPI documents completed in 1.6 seconds.
+
+=== Supplementary workbook ===
+Running: python project/code/build_supplementary_workbook.py
+{"kind":"table","sheet":"S41_ModelGovernance","address":"A1:J10","rows":10,"cols":10,"values":[["model","feature_universe","current_wfh_included","roc_auc","pr_auc","precision_at_10","recall_at_10","lift_at_10","governance_role","preferred_transparent_benchmark"],["restricted_rf_full","planned-only; current WFH excluded",false,0.6502830101852989,0.20392659959448386,0.24838012958963282,0.20833333333333334,2.0817584593232543,"broader planned-only random-forest comparison",false],["no_gender_children","planned-only; current WFH excluded",false,0.6505989109537758,0.20414807535028723,0.2505399568034557,0.21014492753623187,2.09986070679563,"planned-only random forest excluding gender and children; primary complex-model comparison",false],["no_sensitive_family_income","planned-only; current WFH excluded",false,0.6403869350911733,0.19581086927033436,0.2473002159827214,0.20742753623188406,2.0727073355870664,"planned-only random forest excluding gender, children, and income; socioeconomic-proxy sensitivity",false],["signed_gap_only_hris","planned-only; current WFH excluded",false,0.6490522532328142,0.2040847580815722,0.24622030237580994,0.20652173913043478,2.063656211850878,"conventional-characteristics comparison with the signed planned-reference gap",false],["directional_under_remote_rule","planned-only; current WFH excluded",false,0.6124421663723298,0.17107965405237274,0.23218142548596113,0.1947463768115942,1.9459916032804334,"prespecified transparent benchmark at the evaluated 10% capacity; uses only the observed positive desired-minus-planned WFH gap",true],[null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null],[null,null,null,null,null,null,null,null,null,null]]}
+{"kind":"notice","message":"Cell search matched 0 entries."}
+Supplementary_Tables.xlsx
+Supplementary workbook completed in 8.5 seconds.
+
+=== Automated tests ===
+Running: python project/code/run_tests.py --outputs-root project/.
+test_cover_letter_generator_uses_current_terms (test_manuscript_sync.ManuscriptSyncTests.test_cover_letter_generator_uses_current_terms) ... ok
+test_generated_manuscript_contains_all_core_tables_and_figures (test_manuscript_sync.ManuscriptSyncTests.test_generated_manuscript_contains_all_core_tables_and_figures) ... ok
+test_generated_supplement_uses_full_title (test_manuscript_sync.ManuscriptSyncTests.test_generated_supplement_uses_full_title) ... ok
+test_manuscript_references_new_supplement_range (test_manuscript_sync.ManuscriptSyncTests.test_manuscript_references_new_supplement_range) ... ok
+test_manuscript_uses_current_preference_and_model_terms (test_manuscript_sync.ManuscriptSyncTests.test_manuscript_uses_current_preference_and_model_terms) ... ok
+test_primary_association_time_window_is_explicit (test_manuscript_sync.ManuscriptSyncTests.test_primary_association_time_window_is_explicit) ... ok
+test_reference_numbering_is_continuous_and_ordered (test_manuscript_sync.ManuscriptSyncTests.test_reference_numbering_is_continuous_and_ordered) ... ok
+test_submission_copy_has_no_internal_placeholders (test_manuscript_sync.ManuscriptSyncTests.test_submission_copy_has_no_internal_placeholders) ... ok
+test_submission_requirements_and_data_citation_are_explicit (test_manuscript_sync.ManuscriptSyncTests.test_submission_requirements_and_data_citation_are_explicit) ... ok
+test_analysis_source_has_no_legacy_fallback_aliases (test_misfit.MisfitConstructionTests.test_analysis_source_has_no_legacy_fallback_aliases) ... ok
+test_ece_constant_score (test_misfit.MisfitConstructionTests.test_ece_constant_score) ... ok
+test_planned_combined_and_current_references_are_distinct (test_misfit.MisfitConstructionTests.test_planned_combined_and_current_references_are_distinct) ... ok
+test_core_ranking_numbers_and_bootstrap_uncertainty (test_output_contract.OutputContractTests.test_core_ranking_numbers_and_bootstrap_uncertainty) ... ok
+test_generated_holdout_rows_are_locked_to_2026q1 (test_output_contract.OutputContractTests.test_generated_holdout_rows_are_locked_to_2026q1) ... ok
+test_manifested_outputs_are_present_and_csvs_have_data_rows (test_output_contract.OutputContractTests.test_manifested_outputs_are_present_and_csvs_have_data_rows) ... ok
+test_model_governance_has_one_benchmark_and_same_primary_model (test_output_contract.OutputContractTests.test_model_governance_has_one_benchmark_and_same_primary_model) ... ok
+test_primary_association_months_and_retention (test_output_contract.OutputContractTests.test_primary_association_months_and_retention) ... ok
+test_reference_and_response_surface_outputs_are_corrected (test_output_contract.OutputContractTests.test_reference_and_response_surface_outputs_are_corrected) ... ok
+test_required_generated_csv_files_exist_and_are_nonempty (test_output_contract.OutputContractTests.test_required_generated_csv_files_exist_and_are_nonempty) ... ok
+test_satisfaction_score_is_not_mislabeled_ordered_model (test_output_contract.OutputContractTests.test_satisfaction_score_is_not_mislabeled_ordered_model) ... ok
+test_supplementary_workbook_copies_are_byte_identical (test_output_contract.OutputContractTests.test_supplementary_workbook_copies_are_byte_identical) ... ok
+test_supplementary_workbook_has_expected_sheets (test_output_contract.OutputContractTests.test_supplementary_workbook_has_expected_sheets) ... ok
+test_exact_topk_mask_keeps_fixed_capacity_under_ties (test_split_and_leakage.SplitAndLeakageTests.test_exact_topk_mask_keeps_fixed_capacity_under_ties) ... ok
+test_minimal_voice_avoids_redundant_gap_encodings (test_split_and_leakage.SplitAndLeakageTests.test_minimal_voice_avoids_redundant_gap_encodings) ... ok
+test_named_feature_sets_exclude_gender_and_children (test_split_and_leakage.SplitAndLeakageTests.test_named_feature_sets_exclude_gender_and_children) ... ok
+test_restricted_feature_sets_exclude_satisfaction_like_variables (test_split_and_leakage.SplitAndLeakageTests.test_restricted_feature_sets_exclude_satisfaction_like_variables) ... ok
+test_split_is_2025_train_and_2026q1_holdout (test_split_and_leakage.SplitAndLeakageTests.test_split_is_2025_train_and_2026q1_holdout) ... ok
+test_global_queue_bootstrap_returns_intervals_for_same_estimand (test_topk.TopKTests.test_global_queue_bootstrap_returns_intervals_for_same_estimand) ... ok
+test_subgroup_metrics_use_the_global_queue (test_topk.TopKTests.test_subgroup_metrics_use_the_global_queue) ... ok
+test_topk_uses_descending_score_and_stable_count (test_topk.TopKTests.test_topk_uses_descending_score_and_stable_count) ... ok
+test_weighted_topk_includes_first_case_crossing_capacity (test_topk.TopKTests.test_weighted_topk_includes_first_case_crossing_capacity) ... ok
+
+----------------------------------------------------------------------
+Ran 31 tests in 0.120s
+
+OK
+
+Automated tests completed in 2.6 seconds.
+
+Full clean reproduction pipeline completed successfully.

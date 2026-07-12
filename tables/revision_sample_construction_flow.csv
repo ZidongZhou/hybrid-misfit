@@ -1,0 +1,8 @@
+panel,step,n_unweighted,events,weighted_prevalence,unweighted_prevalence,purpose
+A outcome and analytic sample construction,SWAA 2025-2026 loaded rows,96418,,,,loaded rows before applying outcome availability
+A outcome and analytic sample construction,Nonmissing job dissatisfaction,38760,4560.0,0.14754588748875483,0.11764705882352941,outcome coverage
+A outcome and analytic sample construction,Nonmissing desired WFH,38760,4560.0,0.14754588748875483,0.11764705882352941,outcome plus stated preference
+A outcome and analytic sample construction,Nonmissing employer-planned WFH,37434,4438.0,0.14835896047296418,0.11855532403697173,planned-only descriptive and ranking eligible
+A outcome and analytic sample construction,"Complete-case association sample, September-December 2025",15355,1847.0,0.1528545632457091,0.12028655161185281,fully adjusted association model; listwise deletion; September-December 2025
+B ranking sample with imputation,2025 train analytic sample,28181,3334.0,0.1500021449288203,0.11830666051595046,temporal holdout ranking; covariate missingness handled by model pipeline imputation
+B ranking sample with imputation,January-February 2026 test analytic sample,9253,1104.0,0.14338720064113464,0.11931265535501999,temporal holdout ranking; covariate missingness handled by model pipeline imputation

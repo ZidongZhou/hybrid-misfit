@@ -1,0 +1,3 @@
+model,term,estimate,ci_low,ci_high,n,selection_model
+complete_case_inverse_probability_weighted_lpm,under,0.11396993244154516,0.09428944137753548,0.13365042350555484,15355,"complete-case probability estimated from year, WFH voice/reference variables, directional misfit, and planned-reference source"
+complete_case_inverse_probability_weighted_lpm,over,0.0319945412091734,-0.012352078410164391,0.0763411608285112,15355,"complete-case probability estimated from year, WFH voice/reference variables, directional misfit, and planned-reference source"

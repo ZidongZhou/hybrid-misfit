@@ -1,0 +1,7 @@
+model,term,estimate,ci_low,ci_high,n,controls
+imputed_unweighted_lpm,under_remote_planned,0.08700889058834502,0.07846284999382235,0.09555493118286769,37434,conventional worker and job characteristics + month FE + numeric missingness indicators; categorical missingness as explicit level
+imputed_unweighted_lpm,over_remote_planned,0.027123160430964823,0.011321759532293956,0.042924561329635694,37434,conventional worker and job characteristics + month FE + numeric missingness indicators; categorical missingness as explicit level
+imputed_weighted_lpm,under_remote_planned,0.10340299936859777,0.09038789705924051,0.11641810167795504,37434,conventional worker and job characteristics + month FE + numeric missingness indicators; categorical missingness as explicit level
+imputed_weighted_lpm,over_remote_planned,0.01733306504609537,-0.008701856218758863,0.0433679863109496,37434,conventional worker and job characteristics + month FE + numeric missingness indicators; categorical missingness as explicit level
+imputed_weighted_lpm_month_cluster,under_remote_planned,0.10340299936859777,0.08925138101138619,0.11755461772580936,37434,conventional worker and job characteristics + month FE + numeric missingness indicators; categorical missingness as explicit level
+imputed_weighted_lpm_month_cluster,over_remote_planned,0.01733306504609537,-0.015455848767046924,0.050121978859237665,37434,conventional worker and job characteristics + month FE + numeric missingness indicators; categorical missingness as explicit level

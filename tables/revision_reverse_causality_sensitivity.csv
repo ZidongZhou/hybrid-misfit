@@ -1,0 +1,5 @@
+specification,status,n,events,weighted_prevalence,under_remote_estimate,ci_low,ci_high,extra_controls
+broad_main,ok,15434,1858.0,0.15255806548190026,0.11317411183428858,0.09316839923650201,0.13317982443207516,
+strict_very_dissatisfied,ok,15434,647.0,0.050876389185150174,0.03691264835053286,0.024167261340114116,0.049658035360951605,
+exclude_wfh_job_search_preference_observed_no,insufficient usable data,0,,,,,,
+control_wfh_attitude_valuation,insufficient usable data,0,,,,,,

@@ -1,0 +1,5 @@
+model,training_weight,n_train,n_test,roc_auc,pr_auc,brier,precision_at_10,recall_at_10,lift_at_10,note
+logit,unweighted,28181,9253,0.6480722605778961,0.1914206996623833,0.23891803675571588,0.23650107991360692,0.1983695652173913,1.9821960982251856,top-k evaluation remains unweighted because the review queue treats one respondent as one case
+logit,survey_weighted,28181,9253,0.6472639458740381,0.1975011085228261,0.22027719963705997,0.2386609071274298,0.20018115942028986,2.0002983456975616,top-k evaluation remains unweighted because the review queue treats one respondent as one case
+rf,unweighted,28181,9253,0.6505989109537758,0.20414807535028723,0.21628971502647296,0.2505399568034557,0.21014492753623187,2.09986070679563,top-k evaluation remains unweighted because the review queue treats one respondent as one case
+rf,survey_weighted,28181,9253,0.6493410323308096,0.20394577083090007,0.21822238164936786,0.2580993520518359,0.2164855072463768,2.163218572948947,top-k evaluation remains unweighted because the review queue treats one respondent as one case

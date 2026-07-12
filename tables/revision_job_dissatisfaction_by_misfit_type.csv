@@ -1,0 +1,6 @@
+outcome,misfit_type,n,events,prevalence_weighted,prevalence_unweighted
+support_job_dissatisfaction,fit_weak,19731,1663,0.10493393171188642,0.08428361461659317
+support_job_dissatisfaction,over_remote_strong,1743,216,0.13887619486701072,0.12392426850258176
+support_job_dissatisfaction,over_remote_weak,1954,226,0.15112939663459155,0.11566018423746162
+support_job_dissatisfaction,under_remote_strong,9906,1881,0.22019450433353935,0.18988491823137493
+support_job_dissatisfaction,under_remote_weak,4100,452,0.14167766581068936,0.11024390243902439

@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this analysis code, please cite the manuscript and the original SWAA data source."
+title: "Directional Hybrid-Work Misfit and Job Dissatisfaction: Reproduction Package"
+version: "2.0.0"
+date-released: "2026-07-12"
+authors:
+  - family-names: "Zhou"
+    given-names: "Zidong"
+  - family-names: "Munap"
+    given-names: "Rudzi"
+  - family-names: "Meng"
+    given-names: "Yue"
+preferred-citation:
+  type: article
+  title: "Directional Hybrid-Work Misfit and Job Dissatisfaction: Implications for Socially Sustainable Hybrid-Work Design"
+  authors:
+    - family-names: "Zhou"
+      given-names: "Zidong"
+    - family-names: "Munap"
+      given-names: "Rudzi"
+    - family-names: "Meng"
+      given-names: "Yue"
+  year: 2026
+  journal: "Sustainability"
+repository-code: "Provided as Code_Package_FINAL.zip in the submission materials"
+license: "MIT"

@@ -1,0 +1,5 @@
+uncertainty,n_clusters,term,weighted_lpm_estimate,ci_low,ci_high,n,specification
+heteroskedasticity_robust,,under,0.1145134843976577,0.09484477971748084,0.13418218907783455,15355,M4 conventional characteristics plus month FE
+heteroskedasticity_robust,,over,0.03567575359512447,-0.009993144685645008,0.08134465187589394,15355,M4 conventional characteristics plus month FE
+month_cluster_robust,4.0,under,0.1145134843976577,0.08403863029406555,0.14498833850124984,15355,M4 conventional characteristics plus month FE
+month_cluster_robust,4.0,over,0.03567575359512447,-0.01488614982513143,0.08623765701538036,15355,M4 conventional characteristics plus month FE

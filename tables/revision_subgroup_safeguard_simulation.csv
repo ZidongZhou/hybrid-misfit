@@ -1,0 +1,11 @@
+group,strategy,review_capacity,selected_n,overall_precision,overall_recall,min_subgroup_recall,max_subgroup_fnr,subgroup_recall_range,note
+gender_group,global_top_10,0.1,926,0.2505399568034557,0.21014492753623187,0.1784452296819788,0.8215547703180213,0.06504919410984278,single global queue; subgroup metrics are diagnostic
+gender_group,global_80pct_subgroup_reserved_20pct,0.1,926,0.24838012958963282,0.20833333333333334,0.18197879858657243,0.8180212014134276,0.05408068096733093,illustrative safeguard; not a implementation recommendation without legal and organizational review
+has_children_any,global_top_10,0.1,926,0.2505399568034557,0.21014492753623187,0.19301848049281314,0.8069815195071869,0.030644404434253314,single global queue; subgroup metrics are diagnostic
+has_children_any,global_80pct_subgroup_reserved_20pct,0.1,926,0.2451403887688985,0.2056159420289855,0.19917864476386038,0.8008213552361396,0.011518275819608015,illustrative safeguard; not a implementation recommendation without legal and organizational review
+income_group_traincut,global_top_10,0.1,926,0.2505399568034557,0.21014492753623187,0.032679738562091505,0.9673202614379085,0.28848814464958733,single global queue; subgroup metrics are diagnostic
+income_group_traincut,global_80pct_subgroup_reserved_20pct,0.1,926,0.2473002159827214,0.20742753623188406,0.06535947712418301,0.934640522875817,0.2430346834597586,illustrative safeguard; not a implementation recommendation without legal and organizational review
+education_s,global_top_10,0.1,926,0.2505399568034557,0.21014492753623187,0.10497237569060773,0.8950276243093923,0.25502762430939224,single global queue; subgroup metrics are diagnostic
+education_s,global_80pct_subgroup_reserved_20pct,0.1,926,0.25377969762419006,0.2128623188405797,0.1551155115511551,0.8448844884488449,0.20488448844884488,illustrative safeguard; not a implementation recommendation without legal and organizational review
+gender_children,global_top_10,0.1,926,0.2505399568034557,0.21014492753623187,0.17073170731707318,0.8292682926829268,0.09526155867619282,single global queue; subgroup metrics are diagnostic
+gender_children,global_80pct_subgroup_reserved_20pct,0.1,926,0.24622030237580994,0.20652173913043478,0.175,0.825,0.07752525252525255,illustrative safeguard; not a implementation recommendation without legal and organizational review

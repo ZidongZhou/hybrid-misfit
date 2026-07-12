@@ -1,0 +1,3 @@
+outcome,years_available,nonmissing_n,event_n,unweighted_prevalence,weighted_prevalence,missing_rate
+dissatisfied_broad,"2025,2026",38760,4560,0.11764705882352941,0.14754588748875483,0.9004297755045945
+dissatisfied_strict,"2025,2026",38760,1615,0.041666666666666664,0.05018987512801801,0.9004297755045945
