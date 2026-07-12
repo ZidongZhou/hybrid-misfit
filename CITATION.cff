@@ -22,5 +22,7 @@ preferred-citation:
       given-names: "Yue"
   year: 2026
   journal: "Sustainability"
-repository-code: "Provided as Code_Package_FINAL.zip in the submission materials"
+repository-code: "https://github.com/ZidongZhou/hybrid-misfit"
+doi: "10.5281/zenodo.21323412"
+url: "https://doi.org/10.5281/zenodo.21323412"
 license: "MIT"

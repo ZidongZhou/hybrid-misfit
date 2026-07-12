@@ -270,7 +270,7 @@ Informed Consent Statement: No additional informed consent was required for this
 
 Data Availability Statement: Third-party data were obtained from WFH Research. The de-identified SWAA microdata are available to researchers who create an account at https://wfhresearch.com/data/, subject to the provider’s data-use terms. The analysis used WFHdata_May26.csv from the earnings-restricted June 2026 release. The archive name, file list, release definition, and SHA256 checksum are recorded in DATA_MANIFEST.md. The authors do not redistribute the original archive.
 
-Code Availability Statement: The submitted code package contains the analysis pipeline, generated source tables, figures, document-generation scripts, the formatted supplementary workbook, output manifests, automated tests, and the clean-run reproducibility log. The core pipeline accepts the verified SWAA archive through the --data-zip argument. The included clean-run records document generation of all submitted scientific and presentation outputs in one complete run.
+Code Availability Statement: The submitted code package contains the analysis pipeline, generated source tables, figures, document-generation scripts, the formatted supplementary workbook, output manifests, automated tests, and the clean-run reproducibility log. The public code repository is available at https://github.com/ZidongZhou/hybrid-misfit and the archived release is available on Zenodo at https://doi.org/10.5281/zenodo.21323412. The core pipeline accepts the verified SWAA archive through the --data-zip argument. The included clean-run records document generation of all submitted scientific and presentation outputs in one complete run.
 
 Conflicts of Interest: The authors declare no conflicts of interest.
 
